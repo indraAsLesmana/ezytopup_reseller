@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu1">
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_notifications_24dp"
+            android:title="@string/inbox"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_signup"
+            android:icon="@drawable/ic_arrow_signup24dp"
+            android:title="@string/signup" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_arrow_login_24dp"
+            android:title="@string/login" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile_24dp"
+            android:title="@string/profile"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/nav_changepassword"
+            android:icon="@drawable/ic_password_24dp"
+            android:title="@string/change_password"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout_24dp"
+            android:title="@string/logout"
+            android:visible="false"
+            />
+    </group>
+
+    <group android:id="@+id/menu2">
+        <item
+            android:id="@+id/nav_faq"
+            android:title="@string/faq"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_term"
+            android:title="@string/term_and_condition"
+            android:visible="false"
+
+            />
+        <item
+            android:id="@+id/nav_guide"
+            android:title="@string/ezytopup_guide"
+            android:visible="false"
+
+            />
+        <item
+            android:id="@+id/nav_tutorial"
+            android:title="@string/tutorial"
+            android:visible="false"
+
+            />
+        <item
+            android:id="@+id/nav_contactus"
+            android:title="@string/contactus" />
+        <item
+            android:id="@+id/nav_print"
+            android:title="@string/print"
+            android:visible="false" />
+    </group>
+
+</menu>

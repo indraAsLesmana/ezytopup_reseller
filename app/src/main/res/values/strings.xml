@@ -1,0 +1,299 @@
+<resources>
+    <string name="app_name">Ezytopup Reseller</string>
+
+    <!-- id -->
+    <string name="facebook_app_id" translatable="false">1116354245082432</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1116354245082432</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_forgot_password">Forgot Password</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="or">Or</string>
+    <string name="login">Login</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!--Strings related to change password-->
+    <string name="prompt_old_password">Old Password</string>
+    <string name="prompt_new_password">New Password</string>
+    <string name="prompt_confirm_new_password">Confirm New Password</string>
+    <string name="action_change_password">Change Password</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="title_change_password">Change Password</string>
+
+    <!--Strings related to forgot password-->
+    <string name="title_fill_the_information">Please fill the Information</string>
+    <string name="prompt_email_address">Email Address</string>
+    <string name="prompt_phone">Phone</string>
+    <string name="action_get_your_password">Get Your Password</string>
+    <string name="action_back">Back</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="signup_fb">Sign Up With Facebook</string>
+    <string name="logout_fb">Logout From Facebook</string>
+    <string name="signup">Sign up</string>
+
+
+    <string name="store_setting">Store Setting</string>
+    <string name="store_logo_path">file:///</string>
+
+
+    <!--Preference Configuration-->
+
+    <!-- Store name -->
+    <string name="settings_def_storename_label">Store Name</string>
+    <string name="settings_def_storename_key" translatable="false">def_store_name</string>
+    <string name="settings_def_storename_default" translatable="false">@string/app_name</string>
+    <!-- Store logo -->
+    <string name="settings_def_storelogo_label">Store Logo</string>
+    <string name="settings_def_storelogo_key" translatable="false">def_store_logo</string>
+    <string name="settings_def_storelogo_default" translatable="false">@string/store_logo_path</string>
+
+    <!-- Store user id -->
+    <string name="settings_def_uid">ID</string>
+    <string name="settings_def_uid_key" translatable="false">def_store_id</string>
+    <string name="settings_def_uid_default" translatable="false">-</string>
+    <!-- Store user firstname -->
+    <string name="settings_def_storefirst_name_label">First Name</string>
+    <string name="settings_def_storefirst_name_key" translatable="false">def_first_name</string>
+    <string name="settings_def_storefirst_name_default">-</string>
+    <!-- Store user last_name-->
+    <string name="settings_def_storelast_name_label">Last Name</string>
+    <string name="settings_def_storelast_name_key" translatable="false">def_last_name</string>
+    <string name="settings_def_storelast_name_default">-</string>
+    <!-- Store email -->
+    <string name="settings_def_storeemail_label">E-mail</string>
+    <string name="settings_def_storeemail_key" translatable="false">def_email</string>
+    <string name="settings_def_storeemail_default" translatable="false">-</string>
+    <!-- Store phone_number -->
+    <string name="settings_def_storephone_number_label">Phone Number</string>
+    <string name="settings_def_storephone_number_key" translatable="false">def_phone_number</string>
+    <string name="settings_def_storephone_number_default" translatable="false">-</string>
+    <!-- Store access_token -->
+    <string name="settings_def_storeaccess_token_label">Access token</string>
+    <string name="settings_def_storeaccess_token_key" translatable="false">def_access_token</string>
+    <string name="settings_def_storeaccess_token_default" translatable="false">-</string>
+    <!-- Store image_user -->
+    <string name="settings_def_storeimage_user_label">User Image</string>
+    <string name="settings_def_storeimage_user_key" translatable="false">def_image_user</string>
+    <string name="settings_def_storeimage_user_default" translatable="false">-</string>
+    <!-- Store device_id -->
+    <string name="settings_def_storeidevice_label">Device id</string>
+    <string name="settings_def_storeidevice_key" translatable="false">def_deviceid</string>
+    <string name="settings_def_storeidevice_default" translatable="false">-</string>
+
+    <!-- Store seller_shop_name -->
+    <string name="settings_def_sellershopname_label">Shop name</string>
+    <string name="settings_def_sellershopname_key" translatable="false">def_sellershopname</string>
+    <string name="settings_def_sellershopname_default" translatable="false">-</string>
+    <!-- Store seller_kasir_name -->
+    <string name="settings_def_sellerkasirname_label">Cashier name</string>
+    <string name="settings_def_sellerkasirname_key" translatable="false">def_sellerkasirname</string>
+    <string name="settings_def_sellerkasirname_default" translatable="false">-</string>
+    <!-- Store seller_phone -->
+    <string name="settings_def_sellerphone_label">Seller phone</string>
+    <string name="settings_def_sellerphone_key" translatable="false">def_sellerphone</string>
+    <string name="settings_def_sellerphone_default" translatable="false">-</string>
+    <!-- Store seller_address -->
+    <string name="settings_def_selleraddress_label">Seller address</string>
+    <string name="settings_def_selleraddress_key" translatable="false">def_selleraddress</string>
+    <string name="settings_def_selleraddress_default" translatable="false">-</string>
+    <!-- Store seller_website -->
+    <string name="settings_def_sellerwebsite_label">Seller website</string>
+    <string name="settings_def_sellerwebsite_key" translatable="false">def_sellerwebsite</string>
+    <string name="settings_def_sellerwebsite_default" translatable="false">-</string>
+    <!-- Store seller_logo -->
+    <string name="settings_def_sellerlogo_label">Seller logo</string>
+    <string name="settings_def_sellerlogo_key" translatable="false">def_sellerlogo</string>
+    <string name="settings_def_sellerlogo_default" translatable="false">-</string>
+    <!-- Store seller_print_logo -->
+    <string name="settings_def_sellerprintlogo_label">Seller print logo</string>
+    <string name="settings_def_sellerprintlogo_key" translatable="false">def_sellerprintlogo</string>
+    <string name="settings_def_sellerprintlogo_default" translatable="false">-</string>
+    <!-- Store seller_warna_bg -->
+    <string name="settings_def_sellerwarnabg_label">Seller color background</string>
+    <string name="settings_def_sellerwarnabg_key" translatable="false">def_sellerwarnabg</string>
+    <string name="settings_def_sellerwarnabg_default" translatable="false">-</string>
+    <!-- Store seller_id -->
+    <string name="settings_def_sellerid_label">Seller id</string>
+    <string name="settings_def_sellerid_key" translatable="false">def_sellerid</string>
+    <string name="settings_def_sellerid_default" translatable="false">-</string>
+
+    <!-- Store isuser_reseller -->
+    <string name="settings_def_isuser_reseller_label">Is user Reseller</string>
+    <string name="settings_def_isuser_reseller_key" translatable="false">def_isuserreseller</string>
+    <string name="settings_def_isuser_reseller_default" translatable="false">-</string>
+
+    <string name="print">Print</string>
+    <string name="action_print_invoice">Print invoice</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="more">More</string>
+    <string name="re_print">Reprint</string>
+    <string name="dummy_titlecard">Steam wallet IDR 600,000 (Digital) Gameschool</string>
+    <string name="dummy_price1">Rp 718,000</string>
+    <string name="max_lines_item_titles" translatable="false">3</string>
+    <string name="inbox">Inbox</string>
+    <string name="faq">FAQ</string>
+    <string name="term_and_condition">Term and condition</string>
+    <string name="ezytopup_guide">Ezytopup guide</string>
+    <string name="tutorial">Tutorials</string>
+    <string name="contactus">Contact us</string>
+    <string name="category">Category</string>
+    <string name="price">Price</string>
+    <string name="dummy_category">Playstation network</string>
+    <string name="add_tocart">Add to cart</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="progress_title_default">Please wait...</string>
+    <string name="close">Close</string>
+    <string name="faq_1">Frequently asked questions</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+    <string name="transaction_summary">Transaction Summary</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="addminfee">Admin fee</string>
+    <string name="discount">Discount</string>
+    <string name="total">Total</string>
+    <string name="fill_information">Fill the information</string>
+    <string name="enter_emailaddress">Enter your email address here</string>
+    <string name="select_payment">Select payment</string>
+    <string name="my_email">My email</string>
+    <string name="detail_product">Detail product</string>
+    <string name="share">Share</string>
+    <string name="realtime_delivery">Realtime delivery</string>
+    <string name="description">Description</string>
+    <string name="information">Information</string>
+    <string name="buy">Buy</string>
+    <string name="keyword">Keyword</string>
+    <string name="search">Search</string>
+    <string name="dummy_date">15/04/2017</string>
+    <string name="payment">Payment</string>
+    <string name="payment_buy">Payment :</string>
+    <string name="date">Date</string>
+    <string name="dummy_email">indra.agus@kiranatama.com</string>
+    <string name="status">Status</string>
+    <string name="transfer_bank">Transfer otomatis PermataBank</string>
+    <string name="ezzy_wallet">Ezytopup Wallet</string>
+    <string name="note">Note :</string>
+    <string name="cancel">Cancel</string>
+    <string name="buy_now">Buy now</string>
+    <string name="select_payment_method">Please select payment method</string>
+    <string name="listempty">List is empty</string>
+    <string name="name">Name</string>
+    <string name="enter_name">Enter your name here</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="enter_phone">Enter your phone here</string>
+    <string name="password">Password</string>
+    <string name="password_hint">At least 8 characters</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="loading">Loading...</string>
+    <string name="skip">Skip login</string>
+    <string name="logout">logout</string>
+    <string name="profile">Profile</string>
+    <string name="change_password">Change password</string>
+    <string name="saldo">Saldo</string>
+    <string name="update">Update</string>
+    <string name="password_toshort">Password to short</string>
+    <string name="password_notmatch">Passoword not match</string>
+    <string name="please_fill_password">Please fill password</string>
+    <string name="forgot_password">Send request is failed, please fill the informations completely</string>
+    <string name="cantreachserver">Can\'t reach server</string>
+    <string name="response_error">Server response error</string>
+
+    <string name="none_paired">No devices have been paired</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_found">No devices found</string>
+    <string name="btnSearch">Connect  Bluetooth  Printer</string>
+    <string name="btnSend">Print</string>
+    <string name="btn_test">Print  Test  Page</string>
+    <string name="btnClose">Close</string>
+    <string name="txt_content">&quot;&quot;</string>
+    <string name="menu_settings">set</string>
+    <string name="strLang">en</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="bluetooth_open">Bluetooth open successful</string>
+    <string name="unbale_toconnect">Unable to connect device</string>
+    <string name="printer_connectionlost">Printer connection was lost</string>
+    <string name="connection_success">Connect successful</string>
+    <string name="bluetooth_notfound">Bluetooth is not available</string>
+    <string name="paired_printer">Paired printer</string>
+    <string name="other_devices">Other Available Devices</string>
+    <string name="reload">Reload</string>
+    <string name="failed_open_bluetooth">Failed open bluetooth</string>
+    <string name="please_wait_imageprint">Please wait image on progress download</string>
+    <string name="cant_get_time">Can\'t gate valid time</string>
+    <string name="reprint_timeout">Out of reprint validity</string>
+    <string name="cant_getlastproduct">Can\'t get last product buy</string>
+    <string name="done">Done</string>
+    <string name="code_version">Build version</string>
+    <string name="result_null">Result null</string>
+    <string name="please_fill">Send feedback is failed, please fill your</string>
+    <string name="welcome_guest">Welcome, Guest</string>
+    <string name="your_email_here">Your Email Here</string>
+    <string name="no_datafound">No data found</string>
+    <string name="input_fileerror">Input file error</string>
+    <string name="output_fileerror">Output file error</string>
+    <string name="select_imageerror">select image file error</string>
+    <string name="buy_first">You must buy item first</string>
+    <string name="load_vouchercode">Processing voucher code</string>
+    <string name="get_lastbalance">Get last wallet balance</string>
+    <string name="updating_profile">Updating your profile</string>
+    <string name="update_success">Update success</string>
+    <string name="password_change">Password change success</string>
+    <string name="try_toreload">Try reload data</string>
+    <string name="telephony_request">Telephony permission request to identify device</string>
+    <string name="validate_reprint">Validate reprint time</string>
+    <string name="print_onprogress">Printing...</string>
+    <string name="getting_productdetail">Get product detail</string>
+    <string name="searching_product">Search product</string>
+    <string name="get_favotiteitem">Get Favorite item</string>
+    <string name="get_allproduct">Get All product</string>
+    <string name="get_history">Get History</string>
+    <string name="get_listitem">Get list item</string>
+    <string name="relogin_notasreseller">Please relogin you identified not as reseller</string>
+    <string name="device_dsupport">Apps does not support this device</string>
+
+    <string-array name="dummy_data">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+    </string-array>
+
+</resources>

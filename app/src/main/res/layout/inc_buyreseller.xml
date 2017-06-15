@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/dot_border"
+        android:orientation="vertical"
+        android:padding="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/invoice_beforebuy"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/ic_barcode" />
+
+        <LinearLayout
+            android:id="@+id/invoice_subcontainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/invoice_word1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/primary_text"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="EZYTOPUP" />
+
+            <TextView
+                android:id="@+id/invoice_word2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/primary_text"
+                tools:text="Jl Pangeran No 100" />
+
+            <TextView
+                android:id="@+id/invoice_word3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/primary_text"
+                tools:text="www.ezytopup.com" />
+
+            <TextView
+                android:id="@+id/invoice_word4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/primary_text"
+                tools:text="021-248861" />
+
+
+            <TextView
+                android:id="@+id/invoice_word5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/primary_text"
+                tools:text="====================================" />
+
+            <TextView
+                android:id="@+id/invoice_word6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="Tanggal : 2 Jan 2017" />
+
+            <TextView
+                android:id="@+id/invoice_word7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="No nota : 234454" />
+
+            <TextView
+                android:id="@+id/invoice_word8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="Kasir : Indra" />
+
+            <TextView
+                android:id="@+id/invoice_word9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="Serial : tes PSN-324" />
+
+
+            <TextView
+                android:id="@+id/invoice_word10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/primary_text"
+                tools:text="====================================" />
+
+            <TextView
+                android:id="@+id/invoice_word11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/primary_text"
+                tools:text="Playstaion network card" />
+
+            <TextView
+                android:id="@+id/invoice_word12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/primary_text"
+                tools:text=" " />
+
+            <TextView
+                android:id="@+id/invoice_word13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/primary_text"
+                tools:text="Kode Voucher :" />
+
+            <TextView
+                android:id="@+id/invoice_word14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="center"
+                android:textColor="@color/primary_text"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="JJ4AI - 220CB -1I6GO-O0XXD" />
+
+            <TextView
+                android:id="@+id/invoice_word15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/invoice_word16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/primary_text"
+                tools:text="====================================" />
+
+            <TextView
+                android:id="@+id/invoice_word17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="Note :" />
+
+            <TextView
+                android:id="@+id/invoice_word18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="* Kode Voucher ini harus SEGERA" />
+
+            <TextView
+                android:id="@+id/invoice_word19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="digunakan" />
+
+            <TextView
+                android:id="@+id/invoice_word20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="* Jangan memberitahu kode ini" />
+
+            <TextView
+                android:id="@+id/invoice_word21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="kepada siapapun juga" />
+
+            <TextView
+                android:id="@+id/invoice_word22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="* Kami menjamin keabsahan dan" />
+
+            <TextView
+                android:id="@+id/invoice_word23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="kerahasiaan kode voucher ini" />
+
+            <TextView
+                android:id="@+id/invoice_word24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="namun kami tidak bertanggung" />
+
+            <TextView
+                android:id="@+id/invoice_word25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="jawab atas penyalahgunaan " />
+
+            <TextView
+                android:id="@+id/invoice_word26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="kode voucher ini. " />
+
+            <TextView
+                android:id="@+id/invoice_word27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="* Kode Voucher yg sudah dicetak " />
+
+            <TextView
+                android:id="@+id/invoice_word28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="tidak dapat di tukar atau " />
+
+            <TextView
+                android:id="@+id/invoice_word29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="dikembalikan dengan alasan " />
+
+            <TextView
+                android:id="@+id/invoice_word30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="apapun juga. " />
+
+            <TextView
+                android:id="@+id/invoice_word31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:textColor="@color/primary_text"
+                tools:text="" />
+
+            <TextView
+                android:id="@+id/invoice_word32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/primary_text"
+                tools:text="TERIMA KASIH" />
+
+            <TextView
+                android:id="@+id/invoice_word33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/primary_text"
+                tools:text="Kami tunggu transaksi berikutnya" />
+
+            <TextView
+                android:id="@+id/invoice_word34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/primary_text"
+                tools:text="" />
+
+            <TextView
+                android:id="@+id/invoice_word35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/primary_text"
+                tools:text="" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/reseller_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+</android.support.constraint.ConstraintLayout>

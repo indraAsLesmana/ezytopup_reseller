@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containter_bankoption"
+    android:layout_width="110dp"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="?android:selectableItemBackground"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/bank_icon"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        tools:background="@drawable/ic_error_loadimage" />
+
+    <TextView
+        android:id="@+id/bank_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bank_icon"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:maxLines="@string/max_lines_item_titles"
+        android:textColor="@color/primary_text"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:text="@string/dummy_text" />
+</RelativeLayout>
+
+

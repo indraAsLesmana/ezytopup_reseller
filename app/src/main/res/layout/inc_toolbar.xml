@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/toolbar_elevation"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <ImageView
+        android:id="@+id/toolbar_centered_logo"
+        android:layout_width="@dimen/image_toolbar_width"
+        android:layout_height="@dimen/image_toolbar_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo_ezytopupcopy"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/store_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        tools:text="@string/app_name"
+        android:visibility="gone"
+        />
+
+</android.support.v7.widget.Toolbar>
